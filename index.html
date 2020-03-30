@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadline</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .red_border{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+   <form action="" method="POST">
+    <div class="form-control">
+        <input type="text" name="" id="tien_1" placeholder="Nhap ten">
+        <div>Username</div>
+        <div class="hidden" id="error_1_1">Vui lòng nhập tên</div>
+
+    </div>
+    <div class="form-control">
+        <input type="email" name="" id="tien_2" placeholder="Nhap email">
+        <div>Email</div>
+        <div class="hidden" id="error_2_1">Vui lòng nhập email</div>
+        <div class="hidden" id="error_2_2">Vui lòng nhập email đúng định dạng</div>
+    </div>
+    <div class="form-control">
+        <input type="password" name="" id="tien_3" placeholder="Nhap mat khau">
+        <div>Password</div>
+        <div class="hidden" id="error_3_1">Vui lòng nhập mật khẩu</div>
+    </div>
+    <div class="form-control">
+        <input type="password" name="" id="tien_4" placeholder="Nhap lai mat khau">
+        <div>Confirm Password</div>
+        <div class="hidden" id="error_4_1">Confirm Password isn't match</div>
+    </div>
+    <button type="" class="btn btn-danger" onclick="return check()">Sumbit</button>
+    
+</form> 
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/validate.js"></script>
+</body>
+</html>

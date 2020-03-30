@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-100px,-350px);
+}
+.form-control{
+width: 500px;
+margin: 20px;
+display: block;
+}
+input{
+    padding: 7px;
+}
+.hidden{
+    display: none;
+}
+.btn{
+  padding: 7px;
+  margin-left: 150px;
+  background-color:#20C20E;
+  border: 1px solid black;  
+}
